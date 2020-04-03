@@ -44,6 +44,6 @@ MMRMMRMRRM
 ## Run
 
 ```sh
-cd marsrover.console
-dotnet run -- exampleinput.txt
+cd MarsRover
+dotnet run -- Data/input.txt
 ```
