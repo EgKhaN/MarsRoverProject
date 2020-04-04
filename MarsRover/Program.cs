@@ -13,6 +13,7 @@ namespace MarsRover
 
             Input input = new Input();
             input.ConvertInputFromFile(path);
+            input.ExecuteCommands();
             input.ShowOutput();
 
             Console.ReadLine();
